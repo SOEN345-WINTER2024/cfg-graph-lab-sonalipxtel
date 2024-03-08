@@ -24,3 +24,26 @@ Step 5: Event Flow Graph for Basic Calculator: <br/>
 
 Step 6: Monkey Runner
 
+## Lexica App
+I selected the wordListToString() method that converts a list of words into a single string:
+```
+    private String wordListToString() {
+        StringBuilder sb = new StringBuilder();
+        ListIterator<String> li = wordList.listIterator();
+
+        while (li.hasNext()) {
+            String w = li.next();
+            sb.append(w);
+            if (li.hasNext()) {
+                sb.append(",");
+            }
+        }
+        return sb.toString();
+    }
+```
+Step 1: Control Flow Graph for wordListToString(): <br/>
+<img width="300" alt="Lexica CFG" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-sonalipxtel/assets/141271290/65cc7e22-5616-486b-ba0a-55dbcb601e1e">
+<br/><br/>
+
+
+
