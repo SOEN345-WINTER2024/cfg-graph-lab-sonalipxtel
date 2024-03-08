@@ -45,5 +45,18 @@ Step 1: Control Flow Graph for wordListToString(): <br/>
 <img width="300" alt="Lexica CFG" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-sonalipxtel/assets/141271290/65cc7e22-5616-486b-ba0a-55dbcb601e1e">
 <br/><br/>
 
+Step 2: Node Coverage <br/>
+TR: [1], [2], [3], [4], [5], [6] <br/>
+Test Path: [1,2,3,4,5,2,6] <br/>
+
+Step 3: Edge Coverage <br/>
+TR: [1,2], [2,3], [3,4], [4,5], [5,2], [2,6] <br/>
+Test Path: [1,2,3,4,5,2,6] <br/>
+
+Step 4: Edge-Pair Coverage <br/>
+TR: [1,2,3], [2,3,4], [3,4,5], [4,5,2], [5,2,6], [1,2,6] <br/>
+Test Paths: [1,2,6], [1,2,3,4,5,2,6] <br/>
+
+Step: Event Flow Graph for Lexica
 
 
