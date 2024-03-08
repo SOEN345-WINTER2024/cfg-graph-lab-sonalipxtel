@@ -57,6 +57,8 @@ Step 4: Edge-Pair Coverage <br/>
 TR: [1,2,3], [2,3,4], [3,4,5], [4,5,2], [5,2,6], [1,2,6] <br/>
 Test Paths: [1,2,6], [1,2,3,4,5,2,6] <br/>
 
-Step: Event Flow Graph for Lexica
+Step: Event Flow Graph for Lexica <br/>
+<img height="300" alt="Lexica EFG" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-sonalipxtel/assets/141271290/fe4fff7c-36fc-4473-84ec-dcc38a5081dc">
+<br/><br/>
 
 
